@@ -29,7 +29,9 @@ function AddNote() {
 
     return (
         <div>
-            <Link to="/" className="back-button">👈 back</Link>
+            <div className="breadcrump-nav">
+                <Link to="/" className="back-button">👈 back</Link>
+            </div>
 
             <form onSubmit={addNote}>
                 <div className="single-note">

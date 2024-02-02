@@ -178,8 +178,9 @@ ul.notes p {
   align-items: center;
 }
 
-.add-note-button > a {
-  display: flex;
+.add-note-button a {
+  display: flex !important;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -187,6 +188,8 @@ ul.notes p {
 .delete {
   border: 0;
   background-color: transparent;
+  color: #007d93;
+  text-decoration: inherit;
 }
 
 .back-button {
